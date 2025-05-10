@@ -14,7 +14,7 @@ import chromedriver_autoinstaller
 BASE_URL = "https://indiankanoon.org"
 DOWNLOAD_DIR = os.path.join(os.getcwd(), "indiankanoon-case-dump")
 YEARS = list(range(1946, 2025))  # For year-wise scraping
-USERNAME = "sabu.s.alan@gmail.com"
+USERNAME = __Your EmailID __ 
 PASSWORD = __Your Password__
 USE_DATE_RANGE = False  # Set True for range search, False for year-wise
 FROM_DATE = "1-01-1946"
